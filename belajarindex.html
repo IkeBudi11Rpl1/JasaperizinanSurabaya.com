@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Tambah data siswa</h1>
+    <p>Isikan semua data dengan benar, lalu tekan simpan</p>
+    <form action="submit.php" method="POST">
+        <P;">Nama<input type="text" name="Nama" style="margin: left 50px;"/></P>
+        <P>Kota Lahir<input type="text" name="Kota Lahir"/></P>
+        <P>Tanggal Lahir<input type="date" name="Tanggal Lahir"/></P>
+        <P>Agama
+            <input type="radio" name="agama" value="Islam"> Islam
+            <input type="radio" name="agama" value="Kristen"> Kristen
+            <input type="radio" name="agama" value="Katholik"> Katholik
+            <input type="radio" name="agama" value="Hindu"> Hindu
+            <input type="radio" name="agama" value="Konghucu"> Konghucu
+            </P>
+        <P>Foto<input type="file" name="Foto" /><br /></P>
+        <input type="button" name="submit" value="submit" />
+        <div class='back-to-top'>
+           <p style="margin-left: 850px;">
+            <a href="index.html"><input type="button" value="Kembali"/></a>
+            </p>
+          </div>
+</body>
+</html>
